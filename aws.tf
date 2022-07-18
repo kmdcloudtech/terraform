@@ -5,7 +5,7 @@ resource "aws_instance" "web" {
   subnet_id = "subnet-0d47c7cc17ec8f644"
 
   tags = {
-    Name = "web"
+    Name = "demo-web"
   }
 }
 
